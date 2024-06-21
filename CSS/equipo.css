@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #03BB85;
 }
 header, footer {
     background: #fff;
@@ -14,11 +15,10 @@ header, footer {
 h2{
     text-align: center;
     font-size: 60px;
-    animation: fadeIn 2s, forwards, moveUp 2s forwards, zoomIn 2s forwards;
-}
+    }
 header .logo-img{
     margin: center;
-    width: 10%;
+    width: 15%;
     height: auto;
     animation: fadeIn 2s, forwards, moveUp 2s forwards, zoomIn 2s forwards;
 }
@@ -31,13 +31,13 @@ header .logo-img{
 }
 @keyframes moveUp{
     to{
-        transform:translateY(-20px) scale(1);
+        transform:translateY(0.2) scale(0.2);
     }
 }
 
 @keyframes zoomIn{
     to{
-        transform:translateY(-20px) scale(1.5);
+        transform:translateY(2px) scale(0.5);
     }
 }
 nav {
@@ -46,24 +46,18 @@ nav {
     padding: 0.5em 0;
 }
 nav a {
-    color: #fff;
+    color: #333;
     margin: 0 1em;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 25px;
 }
 nav a:hover {
-    color: #ff6347; 
+    color: #03BB85; 
 }
 .container {
     padding: 1em 2em;
 }
-.section-title {
-    color: #333;
-    margin: 1em 0;
-    font-size: 1.5em;
-}
-
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -71,9 +65,8 @@ ul {
     font-size: 20px;
 }
 ul li {
-    background: #f4f4f4;
+    background-color: #fff;
     margin: 0.5em 0;
     padding: 0.5em;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

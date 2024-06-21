@@ -17,7 +17,7 @@ header, footer {
 }
 header .logo-img{
     margin: center;
-    width: 10%;
+    width: 15%;
     height: auto;
     animation: fadeIn 2s, forwards, moveUp 2s forwards, zoomIn 2s forwards;
 }
@@ -30,13 +30,13 @@ header .logo-img{
 }
 @keyframes moveUp{
     to{
-        transform:translateY(-20px) scale(1);
+        transform:translateY(0.2) scale(0.2);
     }
 }
 
 @keyframes zoomIn{
     to{
-        transform:translateY(-20px) scale(1.5);
+        transform:translateY(2px) scale(0.5);
     }
 }
 h2{
@@ -49,33 +49,14 @@ h2{
     width: 700px;
     height: auto;
     padding: 10%;
-    margin-right: auto;
 }
-.maxpaco-img{
-    float: right;
+.maxpaco-img, .luna-img{
+    float: center;
     scroll-margin-block-end: 70px;
     margin: auto;
     padding: 2.5%;
     width: 700px;
     height: auto;
-}
-.derecha-text{
-    text-align: center;
-    font-size: 20px;
-    width: 700px;
-    height: auto;
-    padding: 10%; 
-    align-items: right;
-    margin-left: 45%;
-}
-.luna-img{
-    float: left;
-    scroll-margin-block-end: 70px;
-    margin: auto;
-    padding: 2.5%;
-    width: 700px;
-    height: auto;
-    text-align: center;
 }
 nav {
     text-align: center;
@@ -89,7 +70,7 @@ nav a {
     transition: color 0.3s ease;
 }
 nav a:hover {
-    color: #03BB85; /* Cambia el color al pasar el mouse */
+    color: #03BB85; 
 }
 .container {
     padding: 1em 2em;
@@ -105,12 +86,12 @@ nav a:hover {
     padding: 1em;
     margin: 1em 0;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .testimonial:hover {
-    transform: translateY(-5px); /* Levanta la tarjeta al pasar el mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 .container {
     padding: 1em 2em;
@@ -125,7 +106,7 @@ nav a:hover {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     background-color: #03BB85;
 }
