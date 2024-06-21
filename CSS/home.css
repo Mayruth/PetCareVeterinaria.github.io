@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header .logo-img{
+    margin: center;
+    width: 10%;
+    height: auto;
+    animation: fadeIn 2s, forwards, moveUp 2s forwards, zoomIn 2s forwards;
+}
+
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+@keyframes moveUp{
+    to{
+        transform:translateY(-20px) scale(1);
+    }
+}
+
+@keyframes zoomIn{
+    to{
+        transform:translateY(-20px) scale(1.5);
+    }
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.izquierda-text{
+    text-align: center;
+    font-size: 20px;
+    width: 700px;
+    height: auto;
+    padding: 10%;
+    margin-right: auto;
+}
+.welcome-img{
+    float: right;
+    scroll-margin-block-end: 70px;
+    margin: auto;
+    padding: 2.5%;
+    width: 700px;
+    height: auto;
+}
+.derecha-text{
+    text-align: center;
+    font-size: 20px;
+    width: 700px;
+    height: auto;
+    padding: 10%; 
+    align-items: right;
+    margin-left: 45%;
+}
+.mascota-img{
+    float: left;
+    scroll-margin-block-end: 70px;
+    margin: auto;
+    padding: 2.5%;
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    text-align: center;
+    background: #555;
+    padding: 0.5em 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 35px;
+}
+nav a:hover {
+    color: #03BB85; /* Cambia el color al pasar el mouse */
+}
+.container {
+    padding: 1em 2em;
+}
+.section-title {
+    color: #333;
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+.welcome-img, .mascota-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #03BB85;
+}
+
